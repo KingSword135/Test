@@ -5,10 +5,7 @@ public class Account {
 	private double balance; // Gets the balance, but it is "Private," so it will stay ONLY in the class "Account."
 	private String name;
 	
-	// Constructor
-	public Account(double balance) {
-		this("Unknown", balance);
-	}
+	
 	
 	public Account(String name, double balance) {
 		this.name = name;
